@@ -137,3 +137,25 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+.idea
+.env
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+lib
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+*.log
+swagger/swaggerUI/swagger-ui
+swagger.yaml
